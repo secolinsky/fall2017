@@ -1,0 +1,13 @@
+* Homework
+Go to [[http://connect.mheducation.com/class/s-long-financial-accounting-fall-2017-crn-61097][McGraw-Hill Connect]]
+** DONE Chptr 2 HW
+   CLOSED: [2017-09-10 Sun 22:08] DEADLINE: <2017-09-11 Mon>
+** TODO Chptr 3 HW
+DEADLINE: <2017-09-18 Mon>
+** TODO Chptr 4 HW
+DEADLINE: <2017-09-25 Mon>
+* Quizes and Tests
+** Exam 1 Chptr 1 & 2
+<2017-09-18 Mon> 
+** Exan 2 Chptr 3 & 4
+<2017-10-02 Mon>

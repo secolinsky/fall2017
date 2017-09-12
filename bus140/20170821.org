@@ -1,0 +1,161 @@
+* Mindtap
+Can't afford it so will take alternative that requires to email instructor hw.
+* Tasks
+** DONE first four chapters of HW
+   CLOSED: [2017-09-06 Wed 09:43] DEADLINE: <2017-09-06 Wed>
+Logistics will be discussed in next class
+** DONE study all power point slides from Fall 2017weekone.pt
+   CLOSED: [2017-08-23 Wed 08:46] DEADLINE: <2017-08-23 Wed> 
+** TODO chptrs 5,6,7
+DEADLINE: <2017-09-11 Mon>
+** TODO chptrs 8,9,10,11, 12
+DEADLINE: <2017-09-18 Mon>
+
+* U.S. Constitution
+** Supremacy Clause (Art VI Sec. 2)
+Federal Preemption
+** Commerce Clause (Art I Sec 8)
+** Bill of Rights
+*** First Amendment
+Freedom of religion, speech, the press, assembly, and petition
+*** Fifth Amendment
+Due Process
+*** Fourteenth Amendment
+State can't deny equal protection of the law
+* Source of American Law
+- U.S. Constitution
+- Federal & State Statutes and Local Ordinances
+- Administrative Rules and Regulations
+  
+* Precedent
+Doctrice obliging judges to follow established precedent within a particular jurisdiction
+** Types of Precedent
+- Binding Authority
+- Persuasive Authority
+
+* Classifications of Law
+** Substantive
+creates, regulates, and sometimes abolishes legal rights and obligations
+** Procedural
+regulates the way of enforcing substantive legal rights
+** Civil
+- defines and enforces the duties or obligations between individual and businesses
+- pursued by individuals
+** Criminal
+prosecuted by government on behalf of the people
+** Cyber
+** National
+written and unwritten governing rights and obligations within a country
+** International
+written and unwritten governing relations between nations and between nations and citizens of one or more other sovereign nations
+** Administrative
+- SEC
+- IRS
+- EPA
+- a state's public utilities commission
+* Court Proceedings
+- Plaintiff files a complaint
+- Plaintiff serves complaint and summons on defendants
+- defendants file answers
+** Discovery
+- Interrogatories
+- Request for Documents
+- Request for Admission
+- Depositions
+** Pretrial Motions
+telephonic
+- Motion for judgment on the pleadings
+- Motions for summary judgment
+
+* Digital Millenium Copyright Act
+prohibits manufacture, import, sale, and distribution of devices or services for circumvention
+
+* <2017-08-30 Wed> Notes
+** torts
+A wrongful act or an infringement of a right leading to civil liability
+- it's a civil wrong punishable by paying damages to injured party or parties
+  1. compensatory damages
+     reimburse for value of injury or loss
+  2. punitive damages
+     punish the tortfeasor to deter similar conduct
+- Three types
+  1. intentional
+     - committed knowingly and with the intent to act
+       Examples are below
+       + Assault
+       + Fraud
+	 1. misstatement or omission of one or more material facts
+	 2. made knowingly and with intent to deceive that a reasonable person would rely	 
+       + Intentional Infliction of Emotional Distress
+       + Invasion of Privacy
+	 1. appropriation
+	 2. intrusion in an individual's affairs or seclusion
+	    in an area in which  the person has a reasonable
+	    expectation of privacy
+	 3. publication of information that places a person
+	    in false light, and
+	 4. public disclosure of private facts
+       + Appropriation of Character
+       + Fraudulent Misrepresentation
+       + Interference with Contract
+	 1. a valid contract exists between parties X and Y
+	 2. a third party Z knows that said contract exists, and
+	 3. Z intentionally causes X or Y to breach the contract
+       + Interference with Business Relationship
+	 1. No contract between X and Y, but Z knows or has reason to believe that X and Y
+	    might enter into a business relationship and
+	 2. Z intentionally interferes with X's attempt to establish a business relationship
+     - Common law recognizes four types of false utterances that
+       constitute indefensible defamation
+       + loathsome communicable disease
+       + improprieties while engaging in a profession
+       + committed or imprisoned for a serious crime, and
+     - Defense to intentional torts
+       1. consent
+       2. self-defense
+	  - may use reasonably necessary force
+       3. defense or assistance of others
+       4. defense of property
+       5. necessity
+  2. unintentional
+     - negligence
+       + failing to exercise the standard of care
+       + requires no intent
+       + actionable negligence requires that
+	 1. the tortfeasor owed a duty of care which the tortfeasor breached, thus causing proximately
+	    a legally recognizable injury.
+	 2. Reasonable person will be
+	    1. attentive
+	    2. aware of environment
+	    3. careful
+	    4. conscientious
+	    5. even tempered, and
+	    6. honest
+  3. strict liability
+- Arcticle I Section 8 of Constitution protects Intellectual Property
+  - License is an agreement by which an intellectual property owner permits
+    another party to use the IP for a limited purpose of a limited time.
+    - Types of IP
+      1. Trademarks
+      2. Patents
+      3. Copyrights
+      4. Trade Secrets
+	       
+- Purpose of tort law is to compensate those who suffer legally recognizable injuries.
+- Torts are a breach of a legal duty that proximately causes harm or injury
+
+
+* <2017-09-06 Wed> Notes
+** Digital Realty Trust, Inc. v. Somers
+- legal issue: do whistleblowers under Dodd-Frank act have protection
+** Trump vs. International Refugee Assistance Project
+
+* <2017-09-11 Mon> Notes
+For crime to be committed, must have intent and action
+- braod categories of crimes
+  - violent
+  - property
+  - public order
+  - white collar
+  - organized crime
+

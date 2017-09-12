@@ -1,0 +1,98 @@
+* Homework and Assignments
+** DONE Chapter 1 HW
+  CLOSED: [2017-08-23 Wed 19:15] DEADLINE: <2017-09-10 Sun> 
+** TODO Personal Brand
+DEADLINE: <2017-09-13 Wed>
+Post in Discussion.  Prepare flyer or brochure.  Include specific unique qualities, overview of achievements.
+Think about 
+- why did you choose the design, layout, text, images?
+- What does it convey about you?
+- Why is it the best representation of you in the business world?
+*** Resources
+- [[https://www.monster.com/career-advice/article/build-your-brand][build-your-brand]] in eight steps
+  brand is a collection of assumptions about quality, appeal and reliability made
+  in response to repeated experience with a variety of possible products, people, or
+  services.  Below are the eight steps to build personal brand.
+  1. Identify primary product to offer others.
+     - software development
+     - business consulting
+     - web design, web programming
+     - IT
+  2. Identify core values.
+     - Because I enjoy the excitement in taking risk, I seek gaining experience from being an entrepreneuer starting my own business.  Influencing others
+       comes from being recognized as an expert, and so I'd want to create a company with a chance of becoming an expert.  Also, I can have more control 
+       in general in the direction of a company, and set my own hours if I start my own business.  This control also will allow me to define an aesthetically 
+       pleasing environment in step with my company brand.  I value being respected for the creative work I do and feel that more opportunity to express my 
+       creativity will come from creating my own company.  Lastly, I value being organized and more efficient.
+  3. Identify passions.
+     - Violin music
+     - Python, R, Django,and web design/web programming
+     - Mathematics
+     - Improving my web presence
+  4. Identify talents.
+     1. computer programming
+     2. Musical
+     3. Analytical
+     4. Athletic
+     5. multi-lingual
+     6. methodical
+     7. data manipulation
+  5. Choose top five talents you do best and enjoy the most.
+     1,2,3,5,6
+  6. Weave the five items into a statement of your specialty.
+     Specialty in business intelligence and Information Systems to build customized open-sourced software and infrastructure solutions
+  7. Write a paragraph emphasizing specialty and your five key talents using your most important values, passions and skills.
+     Interpret data for better business decisions that comes from understanding and predicting market trends.  Create customized designed 
+     experiments to obtain data.  Use as part of tool set the open-sourced statistical package R, programming language Python, and python-based 
+     web frameworks.  Use methodical method to create reproducible research and data analysis with the Git Version Control System at Github.
+
+     From all learned from efforts of creating reproducible research, I am dedicated to communicate mathematics and promote mathematical literacy online.
+     
+  8. Add a tag line to your brand
+     - Math, Comp, and Art to Stay in the Market Smart
+- [[http://www.hongkiat.com/blog/handpicked-printed-brochures/][Brochure Examples]]
+  *** Respond to two posts
+    DEADLINE: <2017-09-18 Mon>
+** DONE Chapter 3 HW
+   CLOSED: [2017-09-10 Sun 10:06] DEADLINE: <2017-09-17 Sun>
+   - first step in writing process is planning business messages.  To plan any message, 
+   first analyze the situation by defining your purpose and developing a profile of your audience.
+   - main ideas when writing for the business are recommendations, a conclusion, or a request
+   - subject line of a message should clearly indicate the topic of the message
+   - the writer can help readers by providing an organizational structure to the message
+   - a well-organized message groups related ideas and presents them in logical order
+   - the close of a message often summarizes or reiterates the main idea
+
+** TODO Chapter 4 HW
+   DEADLINE: <2017-09-24 Sun>
+
+** TODO Group Presentation on Effective Media
+   DEADLINE: <2017-09-25 Mon>
+Select 3 distinct pieces of media.  Prepare slide show with all three media and answer the questions
+- What verbal and visual messages are used, and why are they effective?
+- Who is the target audience for each piece?
+- Why did these media pieces catch your attention?
+- Is there a clear brand message?
+
+* Tasks
+** DONE create account at [[https://www.pearsonmylabandmastering.com/northamerica/][MyBCommLab]]
+  CLOSED: [2017-08-23 Wed 15:00]
+- works best with chrome
+- allow pop-ups
+** Register
+- Under Register, select Student
+- Course ID: shapiro88936
+- Enter Pearson account info
+- Select access option
+  - Enter access code
+- from You're Done page select Go To My Courses
+  - select BComm MW 12:45
+
+** TODO Complete Summarizing Results
+Go to values_checklist.org file
+* Notes
+- Not all chapters are assigned in order
+- Due on indicated date by 2359
+- 10 Chapters online
+  - Each worth 5 points
+- See Calendar for due dates
