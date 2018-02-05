@@ -6,12 +6,16 @@ Can't afford it so will take alternative that requires to email instructor hw.
 Logistics will be discussed in next class
 ** DONE study all power point slides from Fall 2017weekone.pt
    CLOSED: [2017-08-23 Wed 08:46] DEADLINE: <2017-08-23 Wed> 
-** TODO chptrs 5,6,7
-DEADLINE: <2017-09-11 Mon>
-** TODO chptrs 8,9,10,11, 12
-DEADLINE: <2017-09-18 Mon>
-
-* U.S. Constitution
+** DONE chptrs 5,6,7
+   CLOSED: [2017-09-17 Sun 08:48] DEADLINE: <2017-09-11 Mon>
+** DONE chptrs 8,9,10,11, 12
+   CLOSED: [2017-09-22 Fri 22:39] DEADLINE: <2017-09-18 Mon>
+** TODO chptrs 11-12
+   DEADLINE: <2017-09-25 Mon>
+** TODO First Assessment due online by 5pm
+   DEADLINE: <2017-09-30 Sat>
+* Slide Notes
+** U.S. Constitution
 ** Supremacy Clause (Art VI Sec. 2)
 Federal Preemption
 ** Commerce Clause (Art I Sec 8)
@@ -22,18 +26,18 @@ Freedom of religion, speech, the press, assembly, and petition
 Due Process
 *** Fourteenth Amendment
 State can't deny equal protection of the law
-* Source of American Law
+** Source of American Law
 - U.S. Constitution
 - Federal & State Statutes and Local Ordinances
 - Administrative Rules and Regulations
   
-* Precedent
+** Precedent
 Doctrice obliging judges to follow established precedent within a particular jurisdiction
 ** Types of Precedent
 - Binding Authority
 - Persuasive Authority
 
-* Classifications of Law
+** Classifications of Law
 ** Substantive
 creates, regulates, and sometimes abolishes legal rights and obligations
 ** Procedural
@@ -53,7 +57,7 @@ written and unwritten governing relations between nations and between nations an
 - IRS
 - EPA
 - a state's public utilities commission
-* Court Proceedings
+** Court Proceedings
 - Plaintiff files a complaint
 - Plaintiff serves complaint and summons on defendants
 - defendants file answers
@@ -67,10 +71,42 @@ telephonic
 - Motion for judgment on the pleadings
 - Motions for summary judgment
 
-* Digital Millenium Copyright Act
+** Contracts
+- common law governs contracts
+** Definitions
+Contract is an agreement that can be enforced in court.
+- offer
+  - terms must be reasonably certain
+  - termination
+    - Revocation is possible if communicated to Offeree before the offer is accepted
+    - Irrevocable Offers are based on detrimental reliance or promissory estoppel and can't be revoked
+    - Option Contracts require consideration
+    - lapse of time
+    - destruction of subject matter
+    - death or incompetence
+    - supervening illegality
+  - Response
+    - Acceptance
+      - mirror image rule
+      - silence as acceptance
+    - Rejection
+    - Counter Offer
+- acceptance
+- consideration
+** Uniform Commercial Code
+- enacted in 1952
+- perfect tender rule
+** Contracts for International Sale of Goods
+- enacted in 1980
+** Settlement of Claims
+- Accord and Satisfaction
+- Release
+- Covenant Not to Sue
+** Digital Millenium Copyright Act
 prohibits manufacture, import, sale, and distribution of devices or services for circumvention
 
-* <2017-08-30 Wed> Notes
+* Notes
+** <2017-08-30 Wed> Notes
 ** torts
 A wrongful act or an infringement of a right leading to civil liability
 - it's a civil wrong punishable by paying damages to injured party or parties
@@ -144,13 +180,12 @@ A wrongful act or an infringement of a right leading to civil liability
 - Purpose of tort law is to compensate those who suffer legally recognizable injuries.
 - Torts are a breach of a legal duty that proximately causes harm or injury
 
-
-* <2017-09-06 Wed> Notes
+** <2017-09-06 Wed> Notes
 ** Digital Realty Trust, Inc. v. Somers
 - legal issue: do whistleblowers under Dodd-Frank act have protection
 ** Trump vs. International Refugee Assistance Project
 
-* <2017-09-11 Mon> Notes
+** <2017-09-11 Mon> Notes
 For crime to be committed, must have intent and action
 - braod categories of crimes
   - violent
@@ -159,3 +194,5 @@ For crime to be committed, must have intent and action
   - white collar
   - organized crime
 
+* Final
+  Based on the case law and factual analysis above the Supreme Court should

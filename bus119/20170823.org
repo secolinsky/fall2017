@@ -1,13 +1,13 @@
 * Homework and Assignments
 ** DONE Chapter 1 HW
   CLOSED: [2017-08-23 Wed 19:15] DEADLINE: <2017-09-10 Sun> 
-** TODO Personal Brand
-DEADLINE: <2017-09-13 Wed>
-Post in Discussion.  Prepare flyer or brochure.  Include specific unique qualities, overview of achievements.
-Think about 
-- why did you choose the design, layout, text, images?
-- What does it convey about you?
-- Why is it the best representation of you in the business world?
+** DONE Personal Brand
+   CLOSED: [2017-09-22 Fri 22:34] DEADLINE: <2017-09-13 Wed>
+   Post in Discussion.  Prepare flyer or brochure.  Include specific unique qualities, overview of achievements.
+   Think about 
+     - why did you choose the design, layout, text, images?
+     - What does it convey about you?
+     - Why is it the best representation of you in the business world?
 *** Resources
 - [[https://www.monster.com/career-advice/article/build-your-brand][build-your-brand]] in eight steps
   brand is a collection of assumptions about quality, appeal and reliability made
@@ -63,17 +63,18 @@ Think about
    - a well-organized message groups related ideas and presents them in logical order
    - the close of a message often summarizes or reiterates the main idea
 
-** TODO Chapter 4 HW
-   DEADLINE: <2017-09-24 Sun>
+** DONE Chapter 4 HW
+   CLOSED: [2017-09-23 Sat 10:15] DEADLINE: <2017-09-24 Sun>
 
-** TODO Group Presentation on Effective Media
-   DEADLINE: <2017-09-25 Mon>
+** DONE Group Presentation on Effective Media
+   CLOSED: [2017-09-26 Tue 22:06] DEADLINE: <2017-09-25 Mon>
 Select 3 distinct pieces of media.  Prepare slide show with all three media and answer the questions
-- What verbal and visual messages are used, and why are they effective?
-- Who is the target audience for each piece?
-- Why did these media pieces catch your attention?
-- Is there a clear brand message?
-
+1. What verbal and visual messages are used, and why are they effective?
+2. Who is the target audience for each piece?
+3. Why did these media pieces catch your attention?
+4. Is there a clear brand message?
+** TODO Chapter 7 HW
+   DEADLINE: <2017-10-08 Sun>
 * Tasks
 ** DONE create account at [[https://www.pearsonmylabandmastering.com/northamerica/][MyBCommLab]]
   CLOSED: [2017-08-23 Wed 15:00]
@@ -88,7 +89,8 @@ Select 3 distinct pieces of media.  Prepare slide show with all three media and 
 - from You're Done page select Go To My Courses
   - select BComm MW 12:45
 
-** TODO Complete Summarizing Results
+** DONE Complete Summarizing Results
+   CLOSED: [2017-09-12 Tue 21:30]
 Go to values_checklist.org file
 * Notes
 - Not all chapters are assigned in order
@@ -96,3 +98,20 @@ Go to values_checklist.org file
 - 10 Chapters online
   - Each worth 5 points
 - See Calendar for due dates
+** Business Proposal
+   - To begin, first identify the goal of your business proposal.  What are you trying to accomplish in writing this proposal?
+     Persuassion may include your assessment of the situation, an explanation of what caused the problem and how it can be fixed.
+   - To avoid confusion, the best way to begin a business proposal is to give a brief overview of the proposal -- what the proposal
+     will cover, how it will be organized, and what the reader should expect from reading the proposal.  This kind of approach should
+     be expressed as clearly as possible so the reader can use it as a guide to the proposal itself.
+   - Explain why your company is the best choice for the job.  You can tell reader that the company "knows how you feel" to identify the
+     key parts to the job/contract.  Make a personal connection between company and customer.
+   - Define the problem and situation.  Provide explanation for why you reached your conclusion.  Assess the situation, identify and 
+     explain the source of problems, and describe how it will be remedied.
+   - Focus attention on how to fix the problem rather than focusing on placing any kind of blame
+   - Offer workplan to effectively tell customer how the job will proceed.  Use bullet points that focus on a separate aspect of the work plan.
+   - Provide timetable that wil best illustrate your plan.  Provide only important information that is easy to access at a glance.
+   - Close with a short persuasive closing.  Repeat key words.  Can choose to offer some kind of pledge.
+* Contacts
+kolbyeymann_21@yahoo.com
+  
