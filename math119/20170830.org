@@ -1,50 +1,34 @@
-* Tasks
-** DONE Study for exam
-   CLOSED: [2017-09-15 Fri 17:37]
-<2017-09-13 Wed>
-** DONE First HW due
-   CLOSED: [2017-09-15 Fri 17:37] Includes 20 Assignments DEADLINE: <2017-09-12 Tue> at midnight
-** DONE Data set HW
-   CLOSED: [2017-09-20 Wed 17:08] DEADLINE: <2017-09-11 Mon>
-- Pick 3 data sets
-- use the data to calculate descriptive measures and
-  graphs using "three methods" as template
-  [[https://www.wunderground.com/history/airport/RJTT/2016/6/1/MonthlyCalendar.html?req_city%3DAraijuku&req_state%3D&req_statename%3DJapan&reqdb.zip%3D&reqdb.magic%3D&reqdb.wmo%3D&MR%3D1][weather data]]
-** TODO study for exam
-   DEADLINE: <2017-10-04 Wed>
-** TODO find out how to do a histogram on R from frequency distribution data
 * Lecture Notes
 ** Observational study
-- someone is observing data that already exist.
+- someone is observing data that already exists
 - Observational studies can reveal only association, 
 ** Experimental study
 - data do not exist until someone does an experiment that produces the data
 - designed experiments can help establish causation, or cause and effect. In a 
   designed experiment, researchers impose treatments and controls, and then 
   observe characteristics and take measurements. 
-
 ** Organizing the Data
 - Distributed within bins
 ** Variables
-- Qualitative
-- Quantitative
-- Discrete
-- Continuous
+- Qualitative or Quantitative
+- Discrete or Continuous
 ** Distributing the data
 *** Continuous Distributions
 - Normal
 - Chi-Square
 - F
-
 *** Frequency Distributions - Histograms
 - Relative frequency
 *** Bar Chart
 - Dividing scale to classes, then bin the data according to classes
-- heigths being relative frequency
-
+- heights being relative frequency
 ** Grouping Method
 ** Scatter Plot
-   use plot(x,y) after reading about [[http://www.r-tutor.com/elementary-statistics/quantitative-data/scatter-plot][scatter-plot]]
+   use plot(x,y) after reading about [[http://www.r-tutor.com/elementary-statistics/quantitative-data/scatter-plot][scatter-plot]] 
+   use the "las = 1" option to rotate the values on the y-axis
+   use "xlim = c(lower_limit, upper_limit)" or ylim to specify limits of axes
+   use "cex = percentage" to change size of plotting character
+
 ** Stem-and-Leaf
    stem
 ** Mean
@@ -56,17 +40,16 @@ Arrange in increasing order
 ** Mode
 Most frequent value
 ** Three Standard Deviation Rule
-
 ** Distributions
    [[http://meredithfranklin.github.io/R-Probability-Distributions.html][R-Probability-Distributions]]
    - d[distribution_name] to generate p.m.f. or p.d.f.
    - p[distribution_name] to generate c.d.f.
-   - q[distribution_name] to generate inverse c.d.f, i.e. the quantile
+   - q[distribution_name] to generate inverse c.d.f, i.e. the quantile or z-scores
    - r[distribution_name] to generate random variable value
 
 *** Chi-Square
     - qchisq
-    - if doing a chi-squre test of standard deviation, then the test
+    - if doing a chi-squre test for the standard deviation, then the test
       statistic is (n-1)*s^2/sigma^2
     - Confidence Intervale from s * sqrt((n-1) / chi_sq of alpha/2) to 
       s * sqrt((n-1) / chi_sq of 1-alpha/2)
@@ -80,10 +63,8 @@ Most frequent value
    - For large samples of size 30 or more, the z-test can be used essentially without restriction. 
    However, if outliers are present and their removal is not justified, the hypothesis test should be performed once with the outliers
    and once without them to see what effect the outliers have. If the conclusion is affected, use a different procedure or take another sample.
-   - For small samples, the z-test should be used only when the variable under consideration is normally distributed or very close to being so. 
    - The t-test can be used when the population is known to be normal, or if the sample is sufficiently large.
 * Homework Notes
-  [[http://www.mystatlab.com/][Pearson site]]
 ** [[https://onlinecourses.science.psu.edu/stat506/node/27][Stratified Random Sampling]]
 Population partitioned called strata and a sample is selected by some design within each stratum.
 Reasons for using stratified random sampling than simple random sampling include the following
@@ -276,7 +257,7 @@ calculating the mean.  Syntax is below
 [[https://www.johndcook.com/blog/2012/02/09/python-org-mode/][Running Python and R inside Emacs]] and [[http://ess.r-project.org/Manual/ess.html][ESS Manual]]
 ** R Code
 Recommended to read [[http://adv-r.had.co.nz/Introduction.html][Advanced R]] by Hadley Wickham.  He gives a good guideline
-on how to maintain a [[http://adv-r.had.co.nz/Style.html][good style]].
+on how to maintain a [[http://adv-r.had.co.nz/Style.html][good style]].  And here is an R specific [[https://rseek.org/][search engine]]
 *** Notes
 - Good [[https://www.tutorialspoint.com/r/r_data_types.htm][R tutorial]]
 - A data frame in R is used for storing data tables
@@ -792,13 +773,13 @@ margin.table(data,2)
 *** Sample Standard Deviation for Single-Valued Grouped-Data
 Mean of data set is 486.
 #+BEGIN_SRC python
-data=[280,430,660,850,940,280,280,430,430,280]
-# f is the frequency distribution of data
-f=[4,3,1,1,1]
-a=map(lambda x : (x- 486)^2,data)
-# use a list comprehension mixed with zip()
-result=[x*y for x,y in zip(a,f)]
-return result
+  data=[280,430,660,850,940,280,280,430,430,280]
+  # f is the frequency distribution of data
+  f=[4,3,1,1,1]
+  a=map(lambda x : (x- 486)^2,data)
+  # use a list comprehension mixed with zip()
+  result=[x*y for x,y in zip(a,f)]
+  return result
 #+END_SRC
 
 #+RESULTS:
@@ -815,11 +796,11 @@ return result
   sed -i 's/\>/,/g;s/,$//' data.txt
 * LaTeX
 ** LaTeX-math-mode
-- Type C - c ~ to toggle LaTeX Math mode.
+- Type C-c ~ to toggle LaTeX Math mode.
 - In math mode, you can enter LaTeX-math-mode by typing C-c ~
   Once in math mode, you can with the prefix character ` insert various 
   common macros such as `t for \tau{}
-- In math mode, type C-u ` t to insert \tau with the dollar signs between math symbol
+- In math mode, type C-u `t to insert \tau with the dollar signs between math symbol
 ** [[https://kieranhealy.org/blog/archives/2009/10/12/make-shift-enter-do-a-lot-in-ess/][Make SHIFT-ENTER do a lot in ESS]]
    a .emacs config for ESS
 ** How to bind figure or table to a section
@@ -839,11 +820,4 @@ return result
      - \includegraphics[scale=0.8]{[name_of_file]}
 ** LaTeX Export
    Org-mode LaTeX export is [[http://orgmode.org/tmp/worg/org-tutorials/org-latex-export.html][easy]]
-* Wunderground API key
-  [[https://www.wunderground.com/weather/api/d/c827faffa5416342/edit.html?api_action%3Dchangesubscription&api_history%3Dundefined&api_usage%3D0&api_package%3Da][site]] gave key c827faffa5416342
-** Example Code
-   - First example http://api.wunderground.com/api/c827faffa5416342/conditions/q/CA/San_Francisco.json
-
-** EDD
-0531481550
 
