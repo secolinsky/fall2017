@@ -1,0 +1,107 @@
+\documentclass[10pt,foldmark,notumble]{leaflet}
+\renewcommand*\foldmarkrule{.3mm}
+\renewcommand*\foldmarklength{5mm}
+
+\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{mathptmx}
+\usepackage[scaled=0.9]{helvet}
+\makeatletter
+\def\ptmTeX{T\kern-.1667em\lower.5ex\hbox{E}\kern-.075emX\@}
+\DeclareRobustCommand{\ptmLaTeX}{L\kern-.3em
+        {\setbox0\hbox{T}
+         \vbox to\ht0{\hbox{
+                            \csname S@\f@size\endcsname
+                            \fontsize\sf@size\z@
+                            \math@fontsfalse\selectfont
+                            A}
+                      \vss}
+        }
+        \kern-.12em
+        \ptmTeX}
+\makeatother
+\let\TeX=\ptmTeX
+\let\LaTeX=\ptmLaTeX
+\usepackage{shortvrb}
+\MakeShortVerb{\|}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage[usenames, dvipsnames]{color}
+% \usepackage[dvipsnames,usenames]{color}
+% \definecolor{LIGHTGRAY}{gray}{.9}
+\definecolor{mygreen}{RGB}{189,207,153}
+\newcommand\Lpack[1]{\textsf{#1}}
+\newcommand\Lclass[1]{\textsf{#1}}
+\newcommand\Lopt[1]{\texttt{#1}}
+\newcommand\Lprog[1]{\textit{#1}}
+
+\newcommand*\defaultmarker{\textsuperscript\textasteriskcentered}
+
+
+\title{\bf Math, Comp, and Art to Stay in the Market Smart}
+
+\author{
+\Large \bf Secolinsky
+}
+
+\date{www.secolinsky.com}
+\CutLine*{1}% Dotted line without scissors
+\CutLine*{6}%  Dotted line with scissors
+
+
+\AddToBackground{6}{%  Background of a small page
+  \put(0,0){\textcolor{mygreen}{\rule{\paperwidth}{\paperheight}}}}
+
+
+\begin{document}
+\maketitle
+\section{Service Overview} 
+\begin{itemize}
+\item Software Development
+\item Business Consulting
+\item Web Design, Web Programming
+\item Information Systems and Business Intelligence
+% \item Operations Research
+\end{itemize}
+
+
+\section{Specialty}
+Building customized open-source software and infrastructure solutions
+
+\section{About}
+Interpret data to make optimal business decisions from better
+understanding and predicting market trends.  Create designed
+experiments to obtain data.  Use as part of tool set the open-sourced
+statistical package R, the programming language Python, and python-based 
+web frameworks.  Employ methodical methods to create collaborative,
+reproducible research and data analysis with Git Version Control System.
+From efforts to create reproducible research, we communicate mathematics and promote mathematical literacy.
+\newpage
+
+\section{Credentials}
+\begin{itemize}
+\item CompTIA A+
+\item B.A. in Mathematics from San Francisco State University
+\end{itemize}
+
+
+\section{Contact Info}
+Secolinsky \\
+PO Box 120576 \\
+San Diego, CA 92112 \\
+email maurice.ticas@secolinsky.com \\
+
+\includegraphics[scale=0.08,angle=90,origin=c]{selfie.jpg}
+\newpage
+
+\begin{figure}
+\caption{Digital to Analog Converter
+and AMP Hardware Added on Top of a Personal Computer Board.  It's an
+Internet of Things jukebox to play high-definition studio qualtiy audio.}
+\includegraphics[width=\textwidth,angle=-90]{pcb.jpg}
+\end{figure}
+
+
+\end{document}
+

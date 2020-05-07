@@ -1,0 +1,823 @@
+* Notes No.1
+** Observational study
+- someone is observing data that already exists
+- Observational studies can reveal only association, 
+** Experimental study
+- data do not exist until someone does an experiment that produces the data
+- designed experiments can help establish causation, or cause and effect. In a 
+  designed experiment, researchers impose treatments and controls, and then 
+  observe characteristics and take measurements. 
+** Organizing the Data
+- Distributed within bins
+** Variables
+- Qualitative or Quantitative
+- Discrete or Continuous
+** Distributing the data
+*** Continuous Distributions
+- Normal
+- Chi-Square
+- F
+*** Frequency Distributions - Histograms
+- Relative frequency
+*** Bar Chart
+- Dividing scale to classes, then bin the data according to classes
+- heights being relative frequency
+** Grouping Method
+** Scatter Plot
+   use plot(x,y) after reading about [[http://www.r-tutor.com/elementary-statistics/quantitative-data/scatter-plot][scatter-plot]] 
+   use the "las = 1" option to rotate the values on the y-axis
+   use "xlim = c(lower_limit, upper_limit)" or ylim to specify limits of axes
+   use "cex = percentage" to change size of plotting character
+
+** Stem-and-Leaf
+   stem
+** Mean
+the sum of the observations divided by the number of observations
+** Median
+Arrange in increasing order
+- n is odd implies median at the middle
+- n is even, then take average of the middle observations
+** Mode
+Most frequent value
+** Three Standard Deviation Rule
+** Distributions
+   [[http://meredithfranklin.github.io/R-Probability-Distributions.html][R-Probability-Distributions]]
+   - d[distribution_name] to generate p.m.f. or p.d.f.
+   - p[distribution_name] to generate c.d.f.
+   - q[distribution_name] to generate inverse c.d.f, i.e. the quantile or z-scores
+   - r[distribution_name] to generate random variable value
+
+*** Chi-Square
+    - qchisq
+    - if doing a chi-squre test for the standard deviation, then the test
+      statistic is (n-1)*s^2/sigma^2
+    - Confidence Intervale from s * sqrt((n-1) / chi_sq of alpha/2) to 
+      s * sqrt((n-1) / chi_sq of 1-alpha/2)
+
+** Sample [[https://www.khanacademy.org/math/ap-statistics/summarizing-quantitative-data-ap/measuring-spread-quantitative/v/sample-standard-deviation-and-bias][standard deviation]]
+** [[http://www.r-tutor.com/elementary-statistics/hypothesis-testing][Hyptothesis Testing with R]]
+   - For small samples of size 15 or less, the z-test should be used only when the variable under consideration is normally distributed or very 
+   close to being so.  
+   - For samples of moderate size between 15 and 30, the z-test can be used unless the data contain outliers or the variable 
+   under consideration is far from being normally distributed.  
+   - For large samples of size 30 or more, the z-test can be used essentially without restriction. 
+   However, if outliers are present and their removal is not justified, the hypothesis test should be performed once with the outliers
+   and once without them to see what effect the outliers have. If the conclusion is affected, use a different procedure or take another sample.
+   - The t-test can be used when the population is known to be normal, or if the sample is sufficiently large.
+* Notes No.2
+** [[https://onlinecourses.science.psu.edu/stat506/node/27][Stratified Random Sampling]]
+Population partitioned called strata and a sample is selected by some design within each stratum.
+Reasons for using stratified random sampling than simple random sampling include the following
+1. Stratification may produce a smaller error of estimation than would be produced by a 
+simple random sample of the same size. This result is particularly true if measurements 
+within strata are very homogeneous.
+2. The cost per observation in the survey may be reduced by stratification of the population elements 
+into convenient groupings.
+3. Estimates of population parameters may be desired for subgroups of the population. These 
+subgroups should then be identified. 
+** [[http://stattrek.com/experiments/experimental-design.aspx?Tutorial%3DAP][Experimental Design]]
+A plan for assigning experimental units to treatment conditions.  Three purposes are to 
+1. allow to make causal inferences about the relationship between independent variables and a dependent variable
+2. to rule out alternative explanations due to the confounding effects of extraneous variables
+3. reduce variability within treatment conditions making it easier to detect differences in treatment outcomes
+*** Examples
+- Randomized design
+  - participants randomly assigned treatments
+  - relies on on radomness to control for the effects of extraneous variables.
+    The assumption is that on average, extraneous factors will affect treatment conditions equally.
+- Randomized block design
+  - Participants divided into subgroups called blocks, 
+    such that variability within blocks is less than the
+    variability  between blocks.  Then participants within each
+    block are randomly assigned to treatment conditions.
+  - Blocks perform a similar function in experimental design as strata perform in sampling.
+    Both divide observations into subgroups.  However, they are not the same.  Blocking
+    is associated with experimental design, and stratification is associated with survey sampling.
+- Matched pairs design
+  - Special case of the randomized block design.
+    Used when the experiment has only two treatment conditions and 
+    participants can be grouped into pairs, based on some blocking
+    variable.  Then, within each pair, participants are randomly assigned
+    to different treatments.
+** [[https://faculty.elgin.edu/dkernler/statistics/ch01/1-6.html][Designed Experiments]]
+A controlled study in which one or more treatments are applied to experimental units (subjects).
+- one-factor experiment
+- levels of a single factor represent the number of treatments
+- experimental unit
+  - person or object which the treatment is applied
+- treatment
+  - condition applied to the experimental unit
+- response variable
+  - the variable of interest
+- factors
+  - variables which affect the response variable
+*** Steps in Designing an Experiment
+1. Identify the problem or claim to be studied
+   - must identify the response variable and the population to be studied
+2. Determine the factors affecting the response variable
+3. Determine the number of experimental units
+4. Determine the levels of each factor
+   - Control to fix the level of factors that we're not interested in
+   - Manipulate the levels of the variable that is thought to affect the response variable
+   - Randomize so that factors can be equally spread among all groups
+    
+** [[https://blog.heapanalytics.com/how-to-lie-with-data-visualization/][misleading graphs]]
+** Inter Quannrtile Range
+   Gives the middle 50% span of data 
+** Trimmed Means
+use when data set contains outliers and do not want the outliers to count when 
+calculating the mean.  Syntax is below
+- mean(x,trim=[percentage])
+
+** Normal Probability Plot
+   - R functions are qqnorm and qqline
+   - It's a graphical technique for assessing whether or not a data set is approximately normally distributed.
+** Wilcoxon one sample signed rank
+   - use qsignrank to find critical values
+   - use psignrank to find P-values
+   - signrank is the Wicoxon distribution
+   - wilcox.test(d,mu,alternative="less")
+   - An assumption for use of the paired t-test 
+   is that the paired-difference variable is 
+   (approximately) normally distributed or that 
+   the sample size is large. For a small or 
+   moderate sample size where the distribution
+   of the paired-difference variable is far 
+   from normal, a paired t-procedure is 
+   inappropriate and a nonparametric procedure 
+   should be used instead. In this case, the 
+   paired Wilcoxon signed-rank test is preferred,
+   because there is an outlier and the sample size 
+   is not large.
+** paired Wilcoxon signed-rank test
+   - to compute the W statistics, follow the instrurction from [[https://www.r-bloggers.com/wilcoxon-signed-rank-test/][r-blogger]]
+** Power Analysis
+   - Some [[https://onlinecourses.science.psu.edu/statprogram/node/162][examples]] and a good [[http://www.statsoft.com/Textbook/Power-Analysis][reference]]
+   - Power analysis is an important aspect of experimental design. 
+   It allows us to determine the sample size required to detect an 
+   effect of a given size with a given degree of confidence. 
+   Conversely, it allows us to determine the probability of detecting 
+   an effect of a given size with a given level of confidence, under 
+   sample size constraints. If the probability is unacceptably low, 
+   we would be wise to alter or abandon the experiment.
+   - Power analysis is the procedure that researchers can use to determine 
+   if the test contains enough power to make a reasonable conclusion. 
+   From another perspective power analysis can also be used to calculate 
+   the number of samples required to achieve a specified level of power.
+** pooled t-test vs Mann-Whitney
+** F distribution
+   Refer to [[http://www.stat.umn.edu/geyer/old03/5102/examp/rlook.html][Distribution List]] as reference
+   The F-statistic is (s_1)^2/(s_2)^2
+** Margin of Error for a confidence interval
+   qnorm(alpha/2)*sqrt(p_hat*(1-p_hat)/n)
+** one-proportion z-interval procedure
+   - confidence interval = 
+   phat +- margin_of_error where
+   margin_of_error = z_(alpha/2) * sqrt( phat*(1-phat)/ n )
+   - Sample size required to obtain a (1 - alpha)*100% confidence
+     interval for p with a margin of error E, withou a previous
+     estimate of p, is given by n=.25*(z_alpha/E)^2
+** one-proportion plus-four z-interval procedure
+   - add 2 successes and 2 failures to the data
+   - should be used only with confidence levels of 90%
+     or greater and sample sizes of 10 or more
+** one-proportion z-test
+   Requirements are
+   - Simple random sample
+   - Both n*p and n*(1-p) are 5 or greater
+     where p is the hypothesized population proportion 
+     from the null hypothesis
+   - the test statistic is
+     z = (p_carrot - p_0) / sqrt( p_0 * ( 1 - p_0) /n )
+     where p_carrot is the sample proportion
+** two-proportion z-procedure
+   Assumptions are
+     1. Independent Simple Random Samples
+     2. x_1, n_1 - x_1, x_2, and n_2 - x_2 are all 5 or greater
+     
+   - test statistic is 
+     (p_1_carrot - p_2_carrot) / sqrt( p_p_carrot * (1 - p_p_carrot) *
+     sqrt( (1 / n_1) + (1 / n_2) )
+   
+   - confidence interval is 
+     (p1_carrot - p2_carrot) +- z_(alpha/2) * 
+   sqrt( p1_carrot * (1-p1_carrot)/n1 + p2_carrot * (1-p2_carrot)/n2 )
+** chi-square goodness of fit test
+   Explanation taken from [[http://stattrek.com/chi-square-test/goodness-of-fit.aspx?Tutorial%3DAP][SatTrek]]
+    - used to determine whether observed
+      sample frequencies differ significantly from
+      expected frequencies specified in the null
+    - used when there's one categorical variable
+      from a single population and to determine
+      whether sample data are consistent with
+      a hypothesized distribution
+*** Requirements to use the Chi-Square Goodness of Fit test
+    - Simple Random Sampling
+    - variable under study is categorical
+    - Expected number of sample observations in each level
+      of the variable is at least 5
+      - According to Pearson Homework
+	- all expected frequencies are 1 or greater
+	- at most 20% of expected frequencies are less 
+	  than 5
+    - Four steps
+      1. state the hypothesis
+      2. formulate an analysis plan
+	 - specify the significance level
+	 - choose test method.  In this case it's the chi-square
+	   goodness of fit test
+      3. analyze sample data
+	 - degrees of freedom is equal to the number of levels
+	   of the categorical variable minus 1
+	 - calculate the expected frequency counts at each level
+	 - calculate the test statistic
+      4. interpret results  
+	
+*** Chi-square goodness-of-fit test statistic
+    - sum (observed - expected)^2 / expected
+** chi-square independence test
+   - degrees of freedom are (n_1 - 1) * (n_2 - 2) where n_1 and n_2
+   are the number of categorical values of each random variable
+   - a requirement of the test is that at most 20 percent of the expected
+     frequencies are less than 5.
+   - expected frequency is (row_total * col_total) / margin_total for each 
+   cell
+   - test statistic same as the chi-square goodness of fit test
+     sum (observed - expected)^2 / expected
+** chi-square homogeneity test
+   - used to compare the distribution of a variable of two or more populations
+   - it compares several populatin proportions
+   - assumptions are
+     1. simple random samples
+     2. independent samples
+     3. same two expected-frequency assumptions
+	required for performing a chi-square 
+	independence test
+* Code
+[[https://www.johndcook.com/blog/2012/02/09/python-org-mode/][Running Python and R inside Emacs]] and [[http://ess.r-project.org/Manual/ess.html][ESS Manual]]
+** R Code
+Recommended to read [[http://adv-r.had.co.nz/Introduction.html][Advanced R]] by Hadley Wickham.  He gives a good guideline
+on how to maintain a [[http://adv-r.had.co.nz/Style.html][good style]].  And here is an R specific [[https://rseek.org/][search engine]]
+*** Notes
+- Good [[https://www.tutorialspoint.com/r/r_data_types.htm][R tutorial]]
+- A data frame in R is used for storing data tables
+  - Unlike a matrix, each column of data frame can contain 
+   different modes of data
+- R commands  
+  1. Create dotplots with the dotchart(x, labels=) function
+- ESS commands
+  1. M-p Select the previous command in the input history
+     - M-n Select the next command in the input history
+  2. <s + TAB wil give code block
+- [[https://www.datacamp.com/community/tutorials/r-tutorial-read-excel-into-r/#gs.Y5UcN4A][Read data]] from a text file into R with read.table("<FileName>.txt",header=TRUE)
+- create a dot plot with dotchart(x,labels) function
+- create a stem-and-leaf plot with stem(x)
+- type'_' to make assignment with '<-' and type it again for normal output
+- use colnames() <- c('first','second',...) to change column names of data
+  frame.
+- If data is categorical, and summary interprets results as numeric,
+  then change class of column as factor with the function as.factor()
+  dataframe$col <- as.factor(dataframe$col)
+*** Make current prompt on top
+    from [[https://stackoverflow.com/questions/14301722/how-to-make-the-current-prompt-of-r-at-the-top-of-buffer-in-ess-just-like-contro][stackoverflow]]
+    How to make the current prompt of R at the top of buffer in ESS 
+    just like Control + L in R console?
+
+    Answer:
+    
+    For me Esc-0 Ctr-l seems to work.
+    
+    `Ctrl-h k' output is:
+    
+    C-l runs the command recenter-top-bottom,
+    which is an interactive compiled Lisp function in window.el'.
+    
+    According to this page from the Emacs manual:
+
+    Scroll the selected window so the current line is the 
+    center-most text line; on subsequent consecutive invocations,
+    make the current line the top line, the bottom line, and so on in
+    cyclic order. Possibly redisplay the screen too (recenter-top-bottom). 
+*** How to do a Frequency Distribution of Quantitative Data
+Taken from [[http://www.r-tutor.com/elementary-statistics/quantitative-data/frequency-distribution-quantitative-data][Frequency Distribution of Quantitative Data]] that uses the dataset faithful:
+
+head(faithful)
+  eruptions waiting
+1     3.600      79
+2     1.800      54
+3     3.333      74
+4     2.283      62
+5     4.533      85
+6     2.883      55
+
+- First get range of data using range()
+  #+BEGIN_SRC R 
+  duration = faithful$eruptions 
+  range(duration)
+  #+END_SRC
+
+  #+RESULTS:
+  | 1.6 |
+  | 5.1 |
+
+- Break range into non-overlapping sub-intervals by defining a 
+  sequence of equal distance break points using seq().
+  #+BEGIN_SRC R 
+  breaks = seq(1.5,5.5,by=0.5)
+  #+END_SRC
+
+  #+RESULTS:
+  | 1.5 |
+  |   2 |
+  | 2.5 |
+  |   3 |
+  | 3.5 |
+  |   4 |
+  | 4.5 |
+  |   5 |
+  | 5.5 |
+
+- Classify the eruption durations according to the half-unit-length sub-intervals with cut(). 
+  As the intervals are to be closed on the left, and open on the right, we set the right argument as FALSE.
+  #+BEGIN_SRC R 
+  duration = faithful$eruptions 
+  breaks = seq(1.5,5.5,by=0.5)
+  duration.cut = cut(duration, breaks, right=F)
+  #+END_SRC
+
+  #+RESULTS:
+  | [3.5,4) |
+  | [1.5,2) |
+  | [3,3.5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [2.5,3) |
+  | [4.5,5) |
+  | [3.5,4) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [3.5,4) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [1.5,2) |
+  | [3,3.5) |
+  | [3,3.5) |
+  | [4.5,5) |
+  | [3.5,4) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [3.5,4) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [3,3.5) |
+  | [4,4.5) |
+  | [3.5,4) |
+  | [2,2.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [3,3.5) |
+  | [3.5,4) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [3.5,4) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [5,5.5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [3.5,4) |
+  | [3.5,4) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [2.5,3) |
+  | [4,4.5) |
+  | [4.5,5) |
+  | [3.5,4) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [4.5,5) |
+  | [3.5,4) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [3.5,4) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [2.5,3) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [3.5,4) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [2.5,3) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [3.5,4) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [5,5.5) |
+  | [1.5,2) |
+  | [5,5.5) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [3.5,4) |
+  | [4,4.5) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [3.5,4) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [3.5,4) |
+  | [3.5,4) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [5,5.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [3,3.5) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [3.5,4) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [3.5,4) |
+  | [4,4.5) |
+  | [3.5,4) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [3.5,4) |
+  | [1.5,2) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [3.5,4) |
+  | [3,3.5) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [4,4.5) |
+  | [3.5,4) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [3.5,4) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [2.5,3) |
+  | [4.5,5) |
+  | [3.5,4) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [3.5,4) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [3.5,4) |
+  | [3.5,4) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [4.5,5) |
+  | [4.5,5) |
+  | [1.5,2) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [2,2.5) |
+  | [4.5,5) |
+  | [4,4.5) |
+  | [2,2.5) |
+  | [4,4.5) |
+  | [1.5,2) |
+  | [4,4.5) |
+
+- Compute the frequency of eruptions in each sub-interval with the table()
+  #+BEGIN_SRC R 
+  duration.freq = table(duration.cut)
+  #+END_SRC
+
+- frequency distribution is below
+  #+BEGIN_SRC R 
+  duration.freq
+  #+END_SRC
+
+- To print result in column format use cbind()
+  #+BEGIN_SRC R 
+  cbind(duration.freq)
+  #+END_SRC
+
+*** How to do a histogram with R
+#+BEGIN_SRC R 
+hist(duration,    # apply the hist function 
+   right=FALSE)    # intervals closed on the left 
+#+END_SRC
+How to use the hist() function to get relative frequencies 
+instead of just frequencies is [[https://stackoverflow.com/questions/7324683/use-hist-function-in-r-to-get-percentages-as-opposed-to-raw-frequencies][here]]
+    
+*** [[http://www.theanalysisfactor.com/r-tutorial-count/][Counting Elements in a Data Set]]
+Combining the lenght() and which() commands gives a handy method of countin
+elements that meet particular criteria.
+#+BEGIN_SRC R
+d=c('a','c','a','e','b','e','d','c','e','b','c','a','d','b','b','d','e',
+'b','c','c','a','c','e','e','c')
+count <- function(letter) { length(which(d==letter)) }
+count('a')
+#+END_SRC
+
+#+RESULTS:
+: 4
+To get a table of frequencies from dataset, 
+#+BEGIN_SRC R
+d=c('a','c','a','e','b','e','d','c','e','b','c','a','d','b','b','d','e',
+'b','c','c','a','c','e','e','c')
+table(d)
+#+END_SRC
+
+#+RESULTS:
+| a | 4 |
+| b | 5 |
+| c | 7 |
+| d | 3 |
+| e | 6 |
+
+To get a table of relative frequencies from dataset, 
+#+BEGIN_SRC R
+d=c('a','c','a','e','b','e','d','c','e','b','c','a','d','b','b','d','e',
+'b','c','c','a','c','e','e','c')
+table(d)/length(d)
+#+END_SRC
+
+#+RESULTS:
+| a | 0.16 |
+| b |  0.2 |
+| c | 0.28 |
+| d | 0.12 |
+| e | 0.24 |
+
+*** Factors R-Object
+Stores vector along with the distinct values of the elements
+#+BEGIN_SRC R
+apple_colors <- c('green','green','yellow','red','red','red','green')
+factor_apple <- factor(apple_colors)
+print(factor_apple)
+#+END_SRC
+
+#+RESULTS:
+| green  |
+| green  |
+| yellow |
+| red    |
+| red    |
+| red    |
+| green  |
+
+#+BEGIN_SRC R
+apple_colors <- c('green','green','yellow','red','red','red','green')
+factor_apple <- factor(apple_colors)
+print(nlevels(factor_apple))
+#+END_SRC
+
+#+RESULTS:
+: 3
+*** limit grouping
+Turning [[https://www.r-bloggers.com/from-continuous-to-categorical/][From continuous to categorical]]
+#+BEGIN_SRC R
+x <- c(2,6,14,21,29,11,11,20,24,6,15,17,22,27,9,6,4,9,6,6)
+mydata<-cut(x,seq(0,30,5),right=FALSE)
+table(mydata)
+#+END_SRC
+
+#+RESULTS:
+| [0,5)   | 2 |
+| [5,10)  | 7 |
+| [10,15) | 3 |
+| [15,20) | 2 |
+| [20,25) | 4 |
+| [25,30) | 2 |
+
+*** Mode of a data set
+#+BEGIN_SRC R
+# Create the function.
+getmode <- function(v) {
+   uniqv <- unique(v)
+   uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+#+END_SRC
+*** Column sd and mean
+colMeans(d) and apply(d,2,sd) where d is your collection of data sets
+*** Quartiles
+- Output of quantile function is a five-number summary
+Q_0,Q_1,Q_2,Q_3,Q_4
+#+BEGIN_SRC R
+quantile(c(3,5,6,8,9,3,5,6,8,9))
+#+END_SRC
+
+#+RESULTS:
+| 3 |
+| 5 |
+| 6 |
+| 8 |
+| 9 |
+Here is a good reference for creating [[https://www.r-bloggers.com/box-plot-with-r-tutorial/][box-plots]]
+- Interquartile range found with IQR function
+
+*** Characters changed to Numeric
+    use as.numeric(as.character(x))
+*** Contingency Tables
+    use table() to generate frequency table, use prop.table() to generate tables 
+    of proportions, and margin.table() to generate marginal frequencies
+    Use as [[http://www.cyclismo.org/tutorial/R/tables.html][Reference]]
+#+BEGIN_SRC R
+data <- matrix(c(3,5,1,0,9,19,10,2,3,4,5,0),ncol=4,byrow=TRUE)
+colnames(data) <- c("Y1","Y2","Y3","Y4")
+rownames(data) <- c("W1","W2","W3")
+data <- as.table(data)
+prop.table(data)
+prop.table(data,1)
+prop.table(data,2)
+margin.table(data)
+margin.table(data,1)
+margin.table(data,2)
+#+END_SRC
+*** chi-square independence test
+    use chisq.test(data)
+** Python Code
+*** Sample Standard Deviation for Single-Valued Grouped-Data
+Mean of data set is 486.
+#+BEGIN_SRC python
+  data=[280,430,660,850,940,280,280,430,430,280]
+  # f is the frequency distribution of data
+  f=[4,3,1,1,1]
+  a=map(lambda x : (x- 486)^2,data)
+  # use a list comprehension mixed with zip()
+  result=[x*y for x,y in zip(a,f)]
+  return result
+#+END_SRC
+
+#+RESULTS:
+| -832 | -162 | 172 | 366 | 452 |
+
+* Sed notes
+- join all lines of a file using sed
+  sed ':a; $s/\n/ /g; N; ba'
+- lowercase the first letter of every line
+  sed 's/.*/\L&/'
+- put all words in quote
+  sed -i 's/[^ ][^ ]*/"&"/g' filename
+- add comma between each word
+  sed -i 's/\>/,/g;s/,$//' data.txt
+* LaTeX
+** LaTeX-math-mode
+- Type C-c ~ to toggle LaTeX Math mode.
+- In math mode, you can enter LaTeX-math-mode by typing C-c ~
+  Once in math mode, you can with the prefix character ` insert various 
+  common macros such as `t for \tau{}
+- In math mode, type C-u `t to insert \tau with the dollar signs between math symbol
+** [[https://kieranhealy.org/blog/archives/2009/10/12/make-shift-enter-do-a-lot-in-ess/][Make SHIFT-ENTER do a lot in ESS]]
+   a .emacs config for ESS
+** How to bind figure or table to a section
+   You can use the float package.
+   \usepackage{float}
+   ...
+   \begin{table}[H]
+   ...
+   \end{table}
+** R figure into LaTeX
+   - create PDF file
+     - pdf('[name_of_file]')
+   - create graph
+   - output graph to PDF file
+     - dev.off()
+   - Finally in LaTeX file, type
+     - \includegraphics[scale=0.8]{[name_of_file]}
+** LaTeX Export
+   Org-mode LaTeX export is [[http://orgmode.org/tmp/worg/org-tutorials/org-latex-export.html][easy]]
+
