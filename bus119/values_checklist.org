@@ -43,21 +43,21 @@ Score is 27.  Three fours plus three fives
 ** Lifestyle Values
 Personal values associated with how and where you want to live, how you choose to spend your leisure time,
 and how you feel about money.
-1.  3 Save money
-2.  1 Vacation at expensive resorts
-3.  5 Have access to educational/cultural opportunities
-4.  2 Live close to sports/recreational facilities
-5.  2 Be active in your community
-6.  2 Entertain at home
-7.  3 Be involved in politics
-8.  5 Live simply
-9.  3 Spend time with family
-10. 3 Live in a big city
-11. 4 Live abroad
-12. 5 Have time for spirituality/personal growth
-13. 4 Be a homeowner
-14. 1 Live in a rural setting
-15. 5 Have fun in your life and at work
++ 3 Save money
++ 1 Vacation at expensive resorts
++ 5 Have access to educational/cultural opportunities
++ 2 Live close to sports/recreational facilities
++ 2 Be active in your community
++ 2 Entertain at home
++ 3 Be involved in politics
++ 5 Live simply
++ 3 Spend time with family
++ 3 Live in a big city
++ 4 Live abroad
++ 5 Have time for spirituality/personal growth
++ 4 Be a homeowner
++ 1 Live in a rural setting
++ 5 Have fun in your life and at work
 *** Score
 Score is 23.  Two fours plus three five
 
