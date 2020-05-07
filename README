@@ -1,0 +1,15 @@
+I'm sharing my study notes from when I was studying statistics at San Diego Mesa Community College during the fall of 2017.
+During that time, I was doing some self reflection on what matters to me and what I find important when finding employment.
+
+The stats material is the beginning of my attempt to practice Donald Knuth's literate programming paradigm with GNU software tools
+- emacs org mode
+- org mode code blocks in R and python using Babel, and
+- Emacs Speaks Statistics (ESS) add-on package for emacs
+
+The main notes org file contains many curated links.  There are a few broken links that I'll clean later.
+
+The repo has a weather report with routine stats analysis on the temperature distribution in El Salvador during the fall and winter
+months of October, November, and December of 2016.
+
+This repo includes my first attempt at defining a personal brand.  It also defines my Secolinsky persona in the form of a leaflet.  Included
+is a leaflet folder that holds the LaTeX material I used to create my Secolinsky marketing material.
