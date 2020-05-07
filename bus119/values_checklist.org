@@ -2,41 +2,41 @@
   On a scale of one to five, five being the most important, score the following
 ** Intrinsic Values
 The intangible rewards, those related to motivation and satisfaction at work on a daily basis.
-1.  3 Variety and change at work
-2.  4 Be an expert
-3.  5 Work on the frontiers of knowledge
-4.  3 Help others
-5.  3 Help society
-6.  4 Experience adventure/excitement
-7.  4 Take risks/have physical challenges
-8.  4 Feel respected for your work
-9.  2 Compete with others
-10. 2 Have lots of public contact
-11. 4 Influence others
-12. 3 Engage in precision work
-13. 3 Gain a sense of achievement
-14. 4 Opportunities to express your creativity
-15. 2 Work for a good cause
++ 3 Variety and change at work
++ 4 Be an expert
++ 5 Work on the frontiers of knowledge
++ 3 Help others
++ 3 Help society
++ 4 Experience adventure/excitement
++ 4 Take risks/have physical challenges
++ 4 Feel respected for your work
++ 2 Compete with others
++ 2 Have lots of public contact
++ 4 Influence others
++ 3 Engage in precision work
++ 3 Gain a sense of achievement
++ 4 Opportunities to express your creativity
++ 2 Work for a good cause
 *** Score
 Score is 33.  Seven fours plus one five.
 
 ** Extrinsic Values
 The tangible rewards or conditions you find at work, including the physical setting, job titles, benefits, and earnings/earning potential.
-1.  4 Have control/power/authority
-2.  2 Travel often
-3.  3 Be rewarded monetarily
-4.  5 Be an entrepreneur
-5.  2 Work as a team
-6.  3 Work in a fast-paced environment
-7.  2 Have regular work hours
-8.  5 Set your own hours/have flexibility
-9.  4 Be wealthy
-10. 2 Have prestige or social status
-11. 5 Have intellectual status
-12. 2 Have recognition through awards/honors/bonuses
-13. 2 Wear a uniform
-14. 5 Work in an aesthetically pleasing environment
-15. 4 Work on the edge, in a high-risk environment
++ 4 Have control/power/authority
++ 2 Travel often
++ 3 Be rewarded monetarily
++ 5 Be an entrepreneur
++ 2 Work as a team
++ 3 Work in a fast-paced environment
++ 2 Have regular work hours
++ 5 Set your own hours/have flexibility
++ 4 Be wealthy
++ 2 Have prestige or social status
++ 5 Have intellectual status
++ 2 Have recognition through awards/honors/bonuses
++ 2 Wear a uniform
++ 5 Work in an aesthetically pleasing environment
++ 4 Work on the edge, in a high-risk environment
 *** Score
 Score is 27.  Three fours plus three fives
 
@@ -89,14 +89,14 @@ Score is 23.  Two fours plus three five
 * Summarizing Results
   How will my values translate into my ideal job?
   Because I enjoy the excitement in taking risk, I seek gaining experience from being an entrepreneuer starting my own business.  Influencing others
-  comes from being recognized as an expert, and so I'd want to create a company with a chance of becoming an expert.  Also, I can have more control 
-  in general in the direction of a company, and set my own hours if I start my own business.  This control also will allow me to define an aesthetically 
+  comes from being recognized as an expert, and so I'd want to create a company with a chance of becoming a leader.  
+
+  I feel I can have more control in the direction of a company if I start my own business.  This control also will allow me to define an aesthetically 
   pleasing environment in step with my company brand.  I value being respected for the creative work I do and feel that more opportunity to express my 
-  creativity will come from creating my own company.
+  creativity will come from creating my own company and doing business with others.
   
-* Passion
-  A positive emotional connection to our work -- often our most energy-consuming pursuit.
+* What is Passion?
+  It is a positive emotional connection to our work -- often our most energy-consuming pursuit.
   - See passion as a nonnegotiable element of your career success.
-  - Don't assume that any work activity that is associated with your passion will gratify you
-  - Brainstorm more than one endeavor that energizes you
+  - Brainstorm more than one endeavor that energizes you.
     

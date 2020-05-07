@@ -1,14 +1,4 @@
-* Homework and Assignments
-** DONE Chapter 1 HW
-  CLOSED: [2017-08-23 Wed 19:15] DEADLINE: <2017-09-10 Sun> 
-** DONE Personal Brand
-   CLOSED: [2017-09-22 Fri 22:34] DEADLINE: <2017-09-13 Wed>
-   Post in Discussion.  Prepare flyer or brochure.  Include specific unique qualities, overview of achievements.
-   Think about 
-     - why did you choose the design, layout, text, images?
-     - What does it convey about you?
-     - Why is it the best representation of you in the business world?
-*** Resources
+* my personal brand
 - [[https://www.monster.com/career-advice/article/build-your-brand][build-your-brand]] in eight steps
   brand is a collection of assumptions about quality, appeal and reliability made
   in response to repeated experience with a variety of possible products, people, or
@@ -53,52 +43,15 @@
 - [[http://www.hongkiat.com/blog/handpicked-printed-brochures/][Brochure Examples]]
   *** Respond to two posts
     DEADLINE: <2017-09-18 Mon>
-** DONE Chapter 3 HW
-   CLOSED: [2017-09-10 Sun 10:06] DEADLINE: <2017-09-17 Sun>
+* how to write a business message
    - first step in writing process is planning business messages.  To plan any message, 
-   first analyze the situation by defining your purpose and developing a profile of your audience.
+     first analyze the situation by defining your purpose and developing a profile of your audience.
    - main ideas when writing for the business are recommendations, a conclusion, or a request
    - subject line of a message should clearly indicate the topic of the message
    - the writer can help readers by providing an organizational structure to the message
    - a well-organized message groups related ideas and presents them in logical order
    - the close of a message often summarizes or reiterates the main idea
-
-** DONE Chapter 4 HW
-   CLOSED: [2017-09-23 Sat 10:15] DEADLINE: <2017-09-24 Sun>
-
-** DONE Group Presentation on Effective Media
-   CLOSED: [2017-09-26 Tue 22:06] DEADLINE: <2017-09-25 Mon>
-Select 3 distinct pieces of media.  Prepare slide show with all three media and answer the questions
-1. What verbal and visual messages are used, and why are they effective?
-2. Who is the target audience for each piece?
-3. Why did these media pieces catch your attention?
-4. Is there a clear brand message?
-** TODO Chapter 7 HW
-   DEADLINE: <2017-10-08 Sun>
-* Tasks
-** DONE create account at [[https://www.pearsonmylabandmastering.com/northamerica/][MyBCommLab]]
-  CLOSED: [2017-08-23 Wed 15:00]
-- works best with chrome
-- allow pop-ups
-** Register
-- Under Register, select Student
-- Course ID: shapiro88936
-- Enter Pearson account info
-- Select access option
-  - Enter access code
-- from You're Done page select Go To My Courses
-  - select BComm MW 12:45
-
-** DONE Complete Summarizing Results
-   CLOSED: [2017-09-12 Tue 21:30]
-Go to values_checklist.org file
-* Notes
-- Not all chapters are assigned in order
-- Due on indicated date by 2359
-- 10 Chapters online
-  - Each worth 5 points
-- See Calendar for due dates
-** Business Proposal
+* how to write a business proposal
    - To begin, first identify the goal of your business proposal.  What are you trying to accomplish in writing this proposal?
      Persuassion may include your assessment of the situation, an explanation of what caused the problem and how it can be fixed.
    - To avoid confusion, the best way to begin a business proposal is to give a brief overview of the proposal -- what the proposal
@@ -112,6 +65,3 @@ Go to values_checklist.org file
    - Offer workplan to effectively tell customer how the job will proceed.  Use bullet points that focus on a separate aspect of the work plan.
    - Provide timetable that wil best illustrate your plan.  Provide only important information that is easy to access at a glance.
    - Close with a short persuasive closing.  Repeat key words.  Can choose to offer some kind of pledge.
-* Contacts
-kolbyeymann_21@yahoo.com
-  
